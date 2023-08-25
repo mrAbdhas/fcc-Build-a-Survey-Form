@@ -1,0 +1,82 @@
+<!DOCTYPE Html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="Survey">
+      
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thanks for submitting your answers about learning with FreeCodeCamp</p>
+        
+        
+
+    <form id="survey-form" >
+      <fieldset>
+        <label for="name" id="name-label">Enter your name: <input id="name" placeholder="First and Last name" type="text" required></input>
+          </label>
+        
+      
+      
+        <label for="email" id="email-label">Enter your email: <input placeholder="Your@.yourExtention."id="email" type="email" pattern="[a-zA-Z0-9]{1,15}[@]{1,1}[a-zA-Z0-9]{1,15}[.]{1,1}[a-zA-Z]{1,15}" required></input></label>
+
+      
+
+      
+        <label for="number" id="number-label"> Enter your age: <input placeholder="age  "id="number" type="number" pattern="[0-9]{8,}" required min="8" max="120" required></input></label>
+
+      </fieldset>
+      
+        
+
+   <!--12 --->
+
+      <fieldset>
+        <p class="">What is your current employment</p>
+        <select class="dropdown"id="dropdown">
+          <option value="">Please chose an option</option>
+          <option>option1</option>
+          <option>option 2</option>
+        </select>
+      </fieldset>
+  <!--12 --->
+  <!--13 --->
+      <fieldset>
+        <p>Would you recoumend learning with FreeCodeCamp?</p>
+        <label for="Yes"> <input class="inline"id="Yes" name="recomend" type="radio" value="Yes" name="Yes"></input> Yes </label>
+
+        <label for="No"> <input class="inline"id="No" name="recomend"type="radio" value="No" name="No"></input> No</label>
+      </fieldset>
+     
+   <!--13 --->
+    <!--14 --->
+    <fieldset>
+      <p>What Subjects would you like to see in the future, as part off the curriculum?</p>
+      <label for "python"> 
+        <input class="inline" id="python" type="checkbox" value="python"></input> Python
+      </label>
+      <label for "swift">  <input  class="inline"id="swift" type="checkbox" value="python"></input> Swift
+      </label>
+
+    </fieldset>
+     <!--14 --->
+     <!--15 --->
+     <fieldset>
+       <label for="comments">Additional comments:
+         <textarea id=comments ></textarea>
+       </label>
+     </fieldset>
+
+     <input id="submit" type="submit" ></input>
+     
+     <!--15 --->
+
+        
+
+    </form>
+    </div>
+  </body>
+  </html>
