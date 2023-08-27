@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(50,50,50);
+    background-color:rgb(50, 50, 50);
     
     
     
@@ -16,15 +16,20 @@ body{
   
   
   form {
+    background-color: #1b1b50;
     width: 60vw;
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
-    padding-bottom: 2em;
+  
+    padding:10px 20px 10px 20px;
+    box-shadow: 2px 5px 10px rgb(0, 0, 0);
+    border-radius: 7px;
   }
   
   label{
     display:block;
+    
   
   }
   
@@ -37,6 +42,7 @@ body{
     border: 1px solid rgb(0,0,0);
     width: 100%;
     margin:10px 0 0 0;
+    border-radius: 7px;
   }
   .dropdown{
     width:100%;
@@ -45,7 +51,7 @@ body{
   }
   
   .Survey{
-    background-color: #1b1b50;
+   
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -54,9 +60,8 @@ body{
    
   }
   .inline{
-    width: unset;
-    margin: 0 0.5em 0 0;
-    vertical-align: middle;
+    width: auto;
+    display: inline-block;
   }
   
   input[type="submit"]{
