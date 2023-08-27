@@ -29,7 +29,8 @@ body{
   
   label{
     display:block;
-    
+    margin:10px 0 0 0;
+  
   
   }
   
@@ -44,11 +45,7 @@ body{
     margin:10px 0 0 0;
     border-radius: 7px;
   }
-  .dropdown{
-    width:100%;
-    border: 1px solid rgb(0,0,0);
-    margin:2px 0 0 0;
-  }
+  
   
   .Survey{
    
@@ -58,6 +55,13 @@ body{
     max-width: 500px;
     padding:20px;
    
+  }
+  .Survey select{
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px 0 0 0;
+    width: 100%;
+    border-radius: 7px;
+
   }
   .inline{
     width: auto;
