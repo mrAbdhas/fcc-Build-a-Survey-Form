@@ -24,10 +24,12 @@ body{
   
     padding:10px 20px 10px 20px;
     box-shadow: 2px 5px 10px rgb(0, 0, 0);
+    border-radius: 7px;
   }
   
   label{
     display:block;
+    
   
   }
   
@@ -40,6 +42,7 @@ body{
     border: 1px solid rgb(0,0,0);
     width: 100%;
     margin:10px 0 0 0;
+    border-radius: 7px;
   }
   .dropdown{
     width:100%;
